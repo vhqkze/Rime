@@ -5,3 +5,5 @@ patch:
   "speller/algebra/@after 3": "derive/([ei])ng$/$1n/"            # eng => en, ing => in
   punctuator/import_preset: symbols # 使用自定义符号
   recognizer/patterns/punct: '^/([a-zA-Z]+|[0-9]0?)$' # 使用 /fh 等方式输入特殊符号
+  switches/@0:  # ascii_mode, 删除rime的英文输入
+  engine/processors/@0:  # ascii_composer, 删除rime的英文输入, see https://github.com/rime/squirrel/issues/221#issuecomment-1630192515

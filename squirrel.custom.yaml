@@ -5,8 +5,9 @@ patch:
   style/font_face: "PingFangSC"
   style/font_point: 18
   style/label_font_point: 18
-  style/comment_font_point": 18
+  style/comment_font_point: 18
   style/text_orientation: horizontal  # horizontal | vertical
   style/horizontal: true              # 候选窗横向显示
   style/inline_preedit: true
   style/candidate_format: "%c. %@ "
+  app_options:
