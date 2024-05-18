@@ -1,0 +1,7 @@
+# 查看 symbols.yaml 文件
+# macOS: /Library/Input Methods/Squirrel.app/Contents/SharedSupport/symbols.yaml
+
+patch:
+  punctuator/half_shape/+:
+    '{' : [ 「, 『, 〖, ｛ ]
+    '}' : [ 」, 』, 〗, ｝ ]
