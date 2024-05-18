@@ -7,10 +7,10 @@ patch:
   recognizer/patterns/punct: '^/([a-zA-Z]+|[0-9]0?)$' # 使用 /fh 等方式输入特殊符号
   switches/@0:  # ascii_mode, 删除rime的英文输入
   engine/processors/@0:  # ascii_composer, 删除rime的英文输入, see https://github.com/rime/squirrel/issues/221#issuecomment-1630192515
-  switches/+:
-    - name: emoji_suggestion
-      reset: 1
-      states: ["字", "😉"]
+  switches/@next:
+    name: emoji_suggestion
+    reset: 1
+    states: ["字", "😉"]
   "engine/filters/@after 0":  # 放在 simplifier 之前则 tips 会使用繁体字，改在 simplifier 后就可以显示为简体字
     simplifier@emoji_suggestion
   emoji_suggestion:
