@@ -1,4 +1,6 @@
 patch:
+  preset_color_schemes/dark_temple/+:
+    hilited_candidate_label_color: 0x92f6da
   style/color_scheme: native
   style/color_scheme_dark: dark_temple
   style/label_font_face: "Iosevka"
@@ -7,7 +9,8 @@ patch:
   style/label_font_point: 18
   style/comment_font_point: 18
   style/text_orientation: horizontal  # horizontal | vertical
-  style/horizontal: true              # 候选窗横向显示
+  style/candidate_list_layout: linear
   style/inline_preedit: true
-  style/candidate_format: "%c. %@ "
+  style/candidate_format: "[label]. [candidate][comment] "
+  style/corner_radius: 10
   app_options:
