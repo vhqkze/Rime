@@ -1,6 +1,7 @@
 patch:
   schema/name: 小鹤双拼
   translator/preedit_format: [] # 双拼时输入 ulpb 不要展开为 shuangpin
+  engine/translators/@after last: lua_translator@datetime_translator # 使用lua动态输入
   "speller/algebra/@after 2": "derive/([ei])n$/$1ng/"            # en => eng, in => ing
   "speller/algebra/@after 3": "derive/([ei])ng$/$1n/"            # eng => en, ing => in
   punctuator/import_preset: symbols # 使用自定义符号
