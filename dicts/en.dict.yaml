@@ -1,0 +1,12 @@
+# Rime dictionary
+# encoding: utf-8
+---
+name: en
+version: "2024-06-10"
+sort: by_weight
+use_preset_vocabulary: false
+...
+macOS	macos	100
+iOS	ios	100
+Android	android	100
+AirPods	airpods	100
