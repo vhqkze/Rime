@@ -1,0 +1,25 @@
+#!/usr/bin/env zsh
+
+# schema
+curl -sSf https://raw.githubusercontent.com/rime/rime-double-pinyin/master/double_pinyin_flypy.schema.yaml -o double_pinyin_flypy.schema.yaml
+
+# symbols
+# curl -sSf https://raw.githubusercontent.com/rime/rime-prelude/master/symbols.yaml -o symbols.yaml
+
+# easy_en
+curl -sSf https://raw.githubusercontent.com/BlindingDark/rime-easy-en/master/easy_en.dict.yaml -o easy_en.dict.yaml
+curl -sSf https://raw.githubusercontent.com/BlindingDark/rime-easy-en/master/easy_en.schema.yaml -o easy_en.schema.yaml
+curl -sSf https://raw.githubusercontent.com/BlindingDark/rime-easy-en/master/easy_en.yaml -o easy_en.yaml
+# curl -sSf https://raw.githubusercontent.com/BlindingDark/rime-easy-en/master/lua/easy_en.lua -o lua/easy_en.lua
+
+# emoji
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/opencc/emoji.txt -o opencc/emoji.txt
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/opencc/others.txt -o opencc/others.txt
+
+# dict
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/base.dict.yaml -o dicts/base.dict.yaml
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/8105.dict.yaml -o dicts/8105.dict.yaml
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/41448.dict.yaml -o dicts/41448.dict.yaml
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/ext.dict.yaml -o dicts/ext.dict.yaml
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/others.dict.yaml -o dicts/others.dict.yaml
+curl -sSf https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/tencent.dict.yaml -o dicts/tencent.dict.yaml
