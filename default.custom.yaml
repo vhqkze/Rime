@@ -3,3 +3,4 @@ patch:
     page_size: 9
   schema_list:
     - schema: double_pinyin_flypy
+  key_binder/bindings/@22: {accept: "Control+Shift+2", toggle: ascii_punct, when: always}
