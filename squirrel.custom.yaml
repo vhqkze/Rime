@@ -1,7 +1,21 @@
+# 0xBBGGRR
 patch:
   preset_color_schemes/dark_temple/+:
     hilited_candidate_label_color: 0x92f6da
-  style/color_scheme: native
+  preset_color_schemes/teal_shadow:
+    name: "Teal Shadow"
+    author: vhqkze
+    back_color: 0xefe9e6
+    text_color: 0x343318
+    hilited_text_color: 0x343318
+    candidate_text_color: 0x343318
+    candidate_label_color: 0x343318
+    comment_text_color: 0xc2aca1
+    hilited_candidate_back_color: 0x66622f
+    hilited_candidate_label_color: 0xeeeeee
+    hilited_candidate_text_color: 0xeeeeee
+    hilited_comment_text_color: 0xd6c7c0
+  style/color_scheme: teal_shadow
   style/color_scheme_dark: dark_temple
   style/label_font_face: "Iosevka"
   style/font_face: "PingFangSC"
@@ -11,6 +25,7 @@ patch:
   style/text_orientation: horizontal  # horizontal | vertical
   style/candidate_list_layout: linear
   style/inline_preedit: true
-  style/candidate_format: "[label]. [candidate][comment] "
+  style/candidate_format: "[label]. [candidate] [comment]"
   style/corner_radius: 10
+  style/line_spacing: 8
   app_options:
